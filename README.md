@@ -9,7 +9,7 @@
 Simple and ready to use GameMaker functions for saving/loading structs into binary-like files using buffers. Released for public domain under the [Unlicense](./LICENSE), credit is good but not mandatory :)
 
 ## How to install
-- [Download the .yymps](https://github.com/AntikoreDev/file-compressed)
+- [Download the .yymps](https://github.com/AntikoreDev/file-compressed/releases)
 - Drag it into your project
 - Include the script into your project.
 
