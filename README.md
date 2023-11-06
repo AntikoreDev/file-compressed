@@ -28,7 +28,7 @@ Asynchronously aves the struct `data` into the chosen filename/path, returns the
 ### file_compressed_load_async(filename)
 Loads data `filename` and returns an struct with the `event_id` and the `buffer` that will be populated with the data loaded. _Take in account for GameMaker reasons, `filename` will include into a `default/` folder, thus it may not be used outside games for UWP_
 
-### file_compressed_load_async(buffer, default = undefined)
+### file_compressed_load_parse(buffer, default = undefined)
 Using a previously loaded `buffer` using `file_compressed_load_async`, convert it and return the resulting struct or `default` if errors ocurr
 
 ## Contributing
