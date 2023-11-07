@@ -23,10 +23,10 @@ Saves the struct `data` into the chosen `filename`.
 Loads and returns the data from `filename` as a struct, if any errors ocurr returns `default`.
 
 ### file_compressed_save_async(filename, data)
-Asynchronously saves the struct `data` into the chosen filename/path, returns the `event_id` for the async event call or `-1` if any errors where caught. _Take in account for GameMaker reasons, `filename` will include into a `default/` folder, thus it may not be used outside games for UWP_
+Asynchronously saves the struct `data` into the chosen filename/path, returns the `event_id` for the async event call or `-1` if any errors where caught. _Take in account for GameMaker reasons, `filename` will include into a `default/` folder, thus it may not be used outside console exports_
 
 ### file_compressed_load_async(filename)
-Asynchronously loads data from `filename` and returns an struct with the `event_id` and the `buffer` that will be populated with the data loaded. _Take in account for GameMaker reasons, `filename` will include into a `default/` folder, thus it may not be used outside games for UWP_
+Asynchronously loads data from `filename` and returns an struct with the `event_id` and the `buffer` that will be populated with the data loaded. _Take in account for GameMaker reasons, `filename` will include into a `default/` folder, thus it may not be used outside console exports_
 
 ### file_compressed_load_parse(buffer, default = undefined)
 Using a previously loaded `buffer` created with `file_compressed_load_async`, convert it and return the resulting struct or `default` if errors ocurr
