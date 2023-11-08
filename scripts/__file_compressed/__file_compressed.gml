@@ -118,9 +118,6 @@ function file_compressed_save(_filename, _data){
 		
 		_compressed_buffer = buffer_compress(_data_buffer, 0, buffer_tell(_data_buffer));
 		buffer_save(_compressed_buffer, _filename);
-		
-		buffer_delete(_compressed_buffer);
-		buffer_delete(_data_buffer);
 
 		_result = true;
 		
