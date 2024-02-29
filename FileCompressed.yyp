@@ -17,7 +17,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"__file_compressed","path":"scripts/__file_compressed/__file_compressed.yy",},},
