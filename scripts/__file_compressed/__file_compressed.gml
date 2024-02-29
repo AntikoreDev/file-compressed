@@ -10,7 +10,7 @@ Available on Github at https://github.com/AntikoreDev/file-compressed
  * @desc Loads the struct from a file saved previously with `file_compressed_save`
  *
  * @arg {string} filename Name of the file to load
- * @arg {any} default Value to return if loaded unsucessfully, defaults to undefined
+ * @arg {any} default Value to return if loaded unsuccessfully, defaults to undefined
  *
  * @return {struct} JSON containing the data from the file or default if couldn't load correctly
  */
@@ -63,7 +63,7 @@ function file_compressed_load_async(_filename){
  * @desc Parses the data from a buffer loaded with `file_compressed_load_async` and converts it to an struct
  *
  * @arg {real} buffer Buffer ID to parse
- * @arg {any} default Value to return if loaded unsucessfully, defaults to undefined
+ * @arg {any} default Value to return if loaded unsuccessfully, defaults to undefined
  *
  * @return {struct} JSON containing the data from the buffer or default if couldn't load correctly
  */
@@ -98,7 +98,7 @@ function file_compressed_load_parse(_buffer, _default = undefined){
  * @arg {string} filename  The file to save the file to
  * @arg {struct} data	   The json data to save onto the file
  *
- * @return {boolean} true if sucess, otherwise false
+ * @return {boolean} true if success, otherwise false
  */
 function file_compressed_save(_filename, _data){
 	
