@@ -98,7 +98,7 @@ function file_compressed_load_parse(_buffer, _default = undefined){
  * @arg {string} filename  The file to save the file to
  * @arg {struct} data	   The json data to save onto the file
  *
- * @return {boolean} true if success, otherwise false
+ * @return {bool} true if success, otherwise false
  */
 function file_compressed_save(_filename, _data){
 	
